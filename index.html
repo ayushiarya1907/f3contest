@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <section class="intro">
+      <div class="blurred"></div>
+      <div class="display-text">Welcome!</div>
+      <a href="#services">Explore Our Services</a>
+    </section>
+
+    <section id="services" class="service-page">
+      <div class="blurred"></div>
+      <div class="">
+        <div class="description">
+          Discover our delicious menu of fresh and innovative dishes, made with
+          only the finest ingredients. From classic entrees to adventurous
+          options, we have something for everyone. Click the "Menu" button to
+          explore our offerings and start planning your next dining experience.
+        </div>
+        <button id="get-menu-button">Get Menu</button>
+      </div>
+    </section>
+    <section id="menu">
+      <h1>THE MENU</h1>
+      <div id="loading-anim">
+        <lottie-player
+          src="https://assets4.lottiefiles.com/packages/lf20_jbt4j3ea.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+        ></lottie-player>
+        <h1>Loading...</h1>
+      </div>
+      <div id="menu-container"></div>
+
+      <div class="place-order-button-container">
+        <button id="place-order-button">Place Order</button>
+      </div>
+    </section>
+
+    <section>
+      
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
